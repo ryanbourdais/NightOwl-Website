@@ -6,6 +6,7 @@ export default function About() {
   useEffect(() => {
     document.title = "Night Owl Studios | Game 1";
   }, []);
+
   return (
     <>
       <CenterContent>
