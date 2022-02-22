@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import CenterContent from "../components/CenterContent";
 import { useEffect } from "react";
+import SplashBanner from "../components/splashBanner";
 
 export default function About() {
   useEffect(() => {
@@ -9,6 +10,7 @@ export default function About() {
 
   return (
     <>
+      <SplashBanner />
       <CenterContent>
         <div style={{ backgroundColor: "#025778", height: "100vh" }}>
           <Typography
@@ -18,7 +20,7 @@ export default function About() {
               fontFamily: "Roboto",
             }}
           >
-            Game 1
+            Mirrored
           </Typography>
           <Typography
             style={{
@@ -27,10 +29,10 @@ export default function About() {
               fontSize: 20,
             }}
           >
-            Game 1 is a top down action role-playing game set in the fantastical
-            town of [redacted]. You will play a game that follows the journey of
-            a man learning just who he is. Immerse yourself in divergent stories
-            that tell a different tale with every playthrough.
+            Mirrored is a top down action role-playing game set in a fantastical
+            universe. You will play a game that follows the journey of a man
+            learning just who he is. Immerse yourself in divergent stories that
+            tell a different tale with every playthrough.
           </Typography>
         </div>
       </CenterContent>

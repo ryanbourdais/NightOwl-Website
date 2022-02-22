@@ -50,7 +50,7 @@ export default function Footer() {
               About us
             </Button>
           </Link>
-          <Link to="/about" style={{ textDecoration: "none" }}>
+          {/* <Link to="/about" style={{ textDecoration: "none" }}>
             <Button
               style={{
                 color: "#C9FBFF",
@@ -64,7 +64,7 @@ export default function Footer() {
             >
               Games
             </Button>
-          </Link>
+          </Link> */}
           <Link to="/blog" style={{ textDecoration: "none" }}>
             <Button
               style={{

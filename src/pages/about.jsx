@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import CenterContent from "../components/CenterContent";
 import { useEffect } from "react";
+import SplashBanner from "../components/splashBanner";
 
 export default function About() {
   useEffect(() => {
@@ -8,6 +9,7 @@ export default function About() {
   }, []);
   return (
     <>
+      <SplashBanner />
       <CenterContent>
         <div style={{ backgroundColor: "#025778", height: "100vh" }}>
           <Typography
@@ -37,10 +39,11 @@ export default function About() {
               paddingBottom: 20,
             }}
           >
-            Ryan Bourdais is a 5th year senior at LSU. Ryan has a background in
-            music, photography, and 2 years of professional developer work. He
-            works as our team lead, our web designer, and working hands on as a
-            software developer for Night Owl Studio.
+            Ryan Bourdais is a 5th year senior studying Software Engineering at
+            LSU. Ryan has a background in music, photography, and 2 years of
+            professional developer work. He works as our team lead, our web
+            designer, and working hands on as a software developer for Night Owl
+            Studio.
           </Typography>
           <Typography
             style={{
@@ -59,7 +62,8 @@ export default function About() {
               paddingBottom: 20,
             }}
           >
-            Christian Cox is our Programming lead, as well as working on
+            Christian Cox is a 5th year senior at LSU studying Software
+            Engineering. He is our Programming lead, as well as working on
             storyboarding for Night Owl Studio.
           </Typography>
           <Typography
@@ -119,10 +123,11 @@ export default function About() {
               paddingBottom: 20,
             }}
           >
-            Vitoria Surman has a history of game development, recently she
-            helped develop "Home is Where the Hearth is" for the 2019 LSU Game
-            Jam. She works as Night Owl Studio's head of level design, as well
-            as works on our UI/UX design.
+            Vitoria Surman is a 4th year senior studing Software Engineering at
+            LSU. She has a history of game development, recently she helped
+            develop "Home is Where the Hearth is" for the 2019 LSU Game Jam. She
+            works as Night Owl Studio's head of level design, as well as works
+            on our UI/UX design.
           </Typography>
         </div>
       </CenterContent>

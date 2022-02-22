@@ -2,6 +2,7 @@ import { Typography } from "@mui/material";
 import CenterContent from "../components/CenterContent";
 import Game from "../components/game";
 import { useEffect } from "react";
+import SplashBanner from "../components/splashBanner";
 
 export default function Home() {
   useEffect(() => {
@@ -9,8 +10,14 @@ export default function Home() {
   }, []);
   return (
     <>
+      <SplashBanner />
       <CenterContent>
-        <div style={{ backgroundColor: "#025778", height: "100vh" }}>
+        <div
+          style={{
+            backgroundColor: "#025778",
+            height: "100vh",
+          }}
+        >
           <Typography
             variant="h2"
             style={{

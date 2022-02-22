@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import CenterContent from "../components/CenterContent";
 import { useEffect } from "react";
+import SplashBanner from "../components/splashBanner";
 
 export default function Blog() {
   useEffect(() => {
@@ -8,6 +9,7 @@ export default function Blog() {
   }, []);
   return (
     <>
+      <SplashBanner />
       <CenterContent>
         <div style={{ backgroundColor: "#025778", height: "100vh" }}>
           <Typography
@@ -38,10 +40,10 @@ export default function Blog() {
             }}
           >
             Today marks the end of our first milestone in the development of our
-            first game! [Redacted] is going to be a top-down action role-playing
-            game based in the fantastical town of [Redacted]. Stay tuned for
-            art, demos, and more to come. We are excited for the development
-            cycle of this game and cannot wait to show what we can do.
+            first game! Mirrored is going to be a top-down action role-playing
+            game based in a fantastical universe. Stay tuned for art, demos, and
+            more to come. We are excited for the development cycle of this game
+            and cannot wait to show what we can do.
           </Typography>
         </div>
       </CenterContent>

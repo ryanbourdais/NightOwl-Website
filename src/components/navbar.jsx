@@ -1,7 +1,7 @@
 import AppBar from "@mui/material/AppBar";
 import { Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import Logo1 from "../images/Logo1.svg";
+import Logo from "../images/NightOwlLogo.png";
 
 export default function NavBar() {
   return (
@@ -17,16 +17,17 @@ export default function NavBar() {
           style={{
             display: "flex",
             flexDirection: "row",
+            height: "7vh",
           }}
         >
           <Link to="/">
             <img
-              src={Logo1}
+              src={Logo}
               style={{
-                transform: "scale(.5)",
+                transform: "scale(1)",
                 position: "relative",
-                bottom: "9vh",
-                right: "10vh",
+
+                height: "7vh",
               }}
               alt="logo"
             />
@@ -35,7 +36,7 @@ export default function NavBar() {
             style={{
               display: "flex",
               justifyContent: "flex-end",
-              marginLeft: "47vw",
+              marginLeft: "65vw",
             }}
           >
             <Typography
@@ -73,7 +74,7 @@ export default function NavBar() {
             >
               |
             </Typography>
-            <Link to="/games" style={{ textDecoration: "none" }}>
+            {/* <Link to="/games" style={{ textDecoration: "none" }}>
               <Button
                 style={{
                   color: "#C9FBFF",
@@ -96,7 +97,7 @@ export default function NavBar() {
               }}
             >
               |
-            </Typography>
+            </Typography> */}
             <Link to="/about" style={{ textDecoration: "none" }}>
               <Button
                 style={{
